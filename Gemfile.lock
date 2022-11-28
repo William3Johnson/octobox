@@ -88,9 +88,9 @@ GEM
       debug_inspector (>= 0.0.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
-    bootstrap (4.6.0)
+    bootstrap (5.2.3)
       autoprefixer-rails (>= 9.1.0)
-      popper_js (>= 1.14.3, < 2)
+      popper_js (>= 2.11.6, < 3)
       sassc-rails (>= 2.0.0)
     brakeman (5.3.1)
     brpoplpush-redis_script (0.1.2)
@@ -245,7 +245,7 @@ GEM
     pg_search (2.3.6)
       activerecord (>= 5.2)
       activesupport (>= 5.2)
-    popper_js (1.16.1)
+    popper_js (2.11.6)
     psych (3.3.4)
     public_suffix (5.0.0)
     puma (5.6.5)
@@ -377,7 +377,7 @@ GEM
     websocket-extensions (0.1.5)
     yard (0.9.28)
       webrick (~> 1.7.0)
-    zeitwerk (2.6.1)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   arm64-darwin-21
@@ -391,7 +391,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootsnap
-  bootstrap (= 4.6.0)
+  bootstrap (= 5.2.3)
   brakeman
   bugsnag
   commonmarker
